@@ -45,6 +45,7 @@ const MainPage = () => {
             <Header/>
             <TrackerContainer/>
             </UserContext.Provider>
+            <button onClick={toggleModalHook.toggleModal}>OK</button>
         </>
     )
 }
