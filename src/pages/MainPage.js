@@ -23,10 +23,6 @@ const MainPage = () => {
         setGoal(parseInt(e.target.value))
     }
 
-    // const toggleModal = () => {
-    //     setIsModalOpen(!isModalOpen);
-    //   }
-
     return (
         <>
             <Modal
@@ -45,7 +41,8 @@ const MainPage = () => {
             <Header/>
             <TrackerContainer/>
             </UserContext.Provider>
-            <button onClick={toggleModalHook.toggleModal}>OK</button>
+            <br/>
+            <button onClick={toggleModalHook.toggleModal}>Change Name/Goal?</button>
         </>
     )
 }
